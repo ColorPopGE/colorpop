@@ -295,3 +295,4 @@ function draw() {
     
   
 }
+(gumo ich bin lugu moinsen)
