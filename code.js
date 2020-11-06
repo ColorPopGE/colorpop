@@ -291,7 +291,7 @@ function draw() {
   }
   dead();
   
-    penis
+    //test
     
   
 }
