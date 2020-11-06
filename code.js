@@ -9,7 +9,7 @@ let lifeImg3;
 let lifeImg2;
 let lifeImg1;
 let lifeImg0;
-
+let lugu;
 
 
 const level = shuffle(colors);
