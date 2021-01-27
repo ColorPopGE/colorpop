@@ -103,10 +103,15 @@
     }
 
     function setup() {
-      document.getElementById("startGame");
       var c = createCanvas(400, 600);
-      randomPlayerColor();
+      var button = createButton("reset");
+      button.mousedPressed(resetSketch);
       
+    }
+    
+    function resetSketch(){
+      randomPlayerColor();
+      document.getElementById("startGame");
     }
 
     function keyPressed(key_Code) {
@@ -155,12 +160,7 @@
     }
       };
     }
-     function reset(){
-      document.getElementById("startGame");
-      var c = createCanvas(400, 600);
-      randomPlayerColor();
-      
-    }
+     
     async function dead(){
         if (life < 1) {
           image(lifeImg0, 30, 10, 40, 40)
