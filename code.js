@@ -103,9 +103,7 @@ function script(){
     }
 
     function setup() {
-      document.getElementById("startGame");
-      var c = createCanvas(400, 600);
-      randomPlayerColor();
+        reset();
     }
 
     function keyPressed(key_Code) {
@@ -154,12 +152,11 @@ function script(){
     }
       };
     }
-     function resete(){
-      reset=true;
-      console.log("reset")
-      life=3
-      score=0
-      //farben müssen noch resetet werden 
+     function reset(){
+      document.getElementById("startGame");
+      var c = createCanvas(400, 600);
+      randomPlayerColor();
+      
     }
     async function dead(){
         if (life < 1) {
