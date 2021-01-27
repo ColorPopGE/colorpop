@@ -108,10 +108,7 @@
       document.getElementById("startGame");     
     }
     
-    function resetSketch(){
-      randomPlayerColor();
-      document.getElementById("startGame");
-    }
+   
 
     function keyPressed(key_Code) {
       if (keyCode == key_Code) {
