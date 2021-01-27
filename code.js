@@ -103,7 +103,10 @@
     }
 
     function setup() {
-        reset();
+      document.getElementById("startGame");
+      var c = createCanvas(400, 600);
+      randomPlayerColor();
+      
     }
 
     function keyPressed(key_Code) {
