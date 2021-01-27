@@ -1,4 +1,4 @@
-function script(){
+
     let life = 3;
     let colors = ["lightgreen", "blue", "yellow", "red"];
     let playerColor;
@@ -293,5 +293,5 @@ function script(){
 
 
     }
-}
+
 
