@@ -104,9 +104,8 @@
 
     function setup() {
       var c = createCanvas(400, 600);
-      var button = createButton("reset");
-      button.mousedPressed(resetSketch);
-      
+      randomPlayerColor();
+      document.getElementById("startGame");     
     }
     
     function resetSketch(){
